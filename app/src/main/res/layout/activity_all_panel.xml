@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AllPanel">
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:backgroundTint="#0F2825"
+        android:text="Hello Admin !"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FF8F00"
+        android:textSize="30sp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:backgroundTint="#1118B2"
+        android:fontFamily="sans-serif-medium"
+        android:text="Hi User !\n Wants to read Quotes Welcome !!"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FEFEFE"
+        android:textSize="30sp"
+        app:cornerRadius="20dp" />
+</LinearLayout>
